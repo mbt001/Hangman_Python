@@ -95,13 +95,13 @@ def buttonHit(x, y):
     return None
 
 
-def end(winner=False):
+def end(winner=Falshttps://github.com/mbt001/Hangman_Pythone):
     global limbs
     lostTxt = 'You Lost, press any key to play again...'
     winTxt = 'WINNER!, press any key to play again...'
     redraw_game_window()
     pygame.time.delay(1000)
-    win.fill(GREEN)
+    win.fill(GREEN)0
 
     if winner == True:
         label = lost_font.render(winTxt, 1, BLACK)
